@@ -1,4 +1,4 @@
-# intentionally-buggy-app
+# intentionally-buggy-webpack-app
 
 npm install
 
