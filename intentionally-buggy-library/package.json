@@ -1,0 +1,17 @@
+{
+  "name": "intentionally-buggy-library",
+  "version": "0.0.6",
+  "description": "Practice contributing to open source by fixing bugs and making bugs for others to fix!",
+  "bugs" : { "url": "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code/issues"},
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code"
+  },
+  "main": "IBL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
