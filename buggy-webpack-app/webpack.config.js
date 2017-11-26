@@ -14,8 +14,8 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       hash: true,
-      title: 'Intentinally Buggy App',
-      myPageHeader: 'Intentinally Buggy App',
+      title: 'Intentinally Buggy Webpack App',
+      myPageHeader: 'Intentinally Buggy Webpack App',
       template: './src/index.html',
       filename: 'index.html'
     })
