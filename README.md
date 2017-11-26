@@ -1,4 +1,4 @@
-# Fix bugs! Make bugs for others to fix! Practice contributing to open source!
+# Practice contributing to open source by fixing bugs and making bugs for others to fix!
 
 Step 1 - fork this project
 
