@@ -11,6 +11,8 @@ IntentionallyBuggyCode.prototype.reverse = function(val) {
 
 const IBC = new IntentionallyBuggyCode();
 
+window.IBC = IBC;
+
 //components
 
 const component = () => {
