@@ -15,3 +15,5 @@ Step 6 - git commit (please add an useful message)
 Step 7 - git push --set-upstream upstream janedoe
 
 Step 8 - once you have an upstream branch, you can simply git push
+
+To sync your master branch with upstream..  git checkout master, then git pull.
