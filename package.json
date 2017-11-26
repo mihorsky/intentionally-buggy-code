@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code/issues"
   },
-  "homepage": "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code#readme"
+  "homepage": "https://github.com/IntentionallyBuggyCode/intentionally-buggy-code#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
