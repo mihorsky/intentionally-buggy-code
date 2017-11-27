@@ -1,13 +1,20 @@
-function IBL (val) {
+function IntentionallyBuggyCode (val) {
   this.val = val;
 }
 
-IBL.prototype.reverse = function (str) {
+IntentionallyBuggyCode.prototype.reverse = function (str) {
     return str.split('').reverse().join();
 }
 
+
+
 if (typeof window === 'undefined') {
- exports.IBL = new IBL();
+  //if it's not being run in browser
+  //make it exportable
+ exports.IBL = new IntentionallyBuggyCode();
+ //add it to global object
+ global.IBL = new IntentionallyBuggyCode();
 } else {
-  window.IBL = new IBL();
+  //add it to the window object
+  window.IBL = new IntentionallyBuggyCode();
 }
